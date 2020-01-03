@@ -65,3 +65,20 @@ ChangeLog:
 *v3
 -----------
 * Fixed stuff up a lot. Spawns now work, continuous works, various other things work. Only bit missing is minion spawns
+
+This is a working fork update from Wight's https://github.com/QuiCM/AutoBoss for API 2,1.
+
+With a slight improvement to commands to make the return messages shorter.
+What is AutoBoss+?
+AutoBoss+ is a continuation of the idea started by InanZen: It spawns bosses in defined places (using regions).
+However, AutoBoss+ takes the original idea further by offering unlimited arenas and a variety of other expansions.
+
+Commands:
+/boss - Is the base command which contains a variety of subcommands.
+subcommands
+toggle - enables and disables the countdown timer for the bosses
+reload - attempts to reload the config file, and will (hopefully) tell you why it failed, if it does.
+list [boss/minions] - lists the active bosses or minions in the current battle
+config - Displays a lot of information about your config setup
+
+boss.root 
